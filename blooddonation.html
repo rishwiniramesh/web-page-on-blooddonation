@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Lives - Donate Blood</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, white, #ff9999);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #b30000;
+            color: black;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #800000;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color:black;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            background-color: #b30000;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            background-color: white;
+        }
+
+        .info .card {
+            background-color: #ffe6e6;
+            padding: 20px;
+            width: 28%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .info .card h3 {
+            color: #b30000;
+        }
+
+        footer {
+            background-color: #800000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .info {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .info .card {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+        .nav{
+            display:inline-block;
+            padding: 10px 20px;
+            background-color: rgb(255, 196, 196);
+            
+            
+        }
+        .nav:hover{
+            background-color: rgb(43, 226, 217);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Donate Blood, Save Lives</h1>
+    </header>
+
+    <nav>
+        <a href="#why-donate" class="nav">Why Donate?</a>
+        <a href="#How-it-works" class="nav">How It Works</a>
+        <a href="#get-involved" class="nav">Get Involved</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Be a Hero Today</h2>
+        <p>Your single donation can save up to 3 lives. Join the movement to fight blood shortages in our communities.</p>
+        <button onclick="alert('Thank you for your interest in donating blood!')">Donate Now</button>
+    </section>
+
+    <section class="info" id="why-donate">
+        <div class="card">
+            <h3>Why Donate Blood?</h3>
+            <p>Every 2 seconds, someone in the world needs blood. Blood donation is safe, simple, and vital for saving lives.</p>
+        </div>
+
+        <div class="card" id="How-it-works">
+            <h3>How It Works</h3>
+            <p>After a quick health screening, your blood is collected, tested, and distributed to hospitals and clinics in need.</p>
+        </div>
+
+        <div class="card" id="get-involved" >
+            <h3>Get Involved</h3>
+            <p>Whether you donate, volunteer, or spread awareness, your contribution makes a real difference.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Blood Donation Awareness | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
